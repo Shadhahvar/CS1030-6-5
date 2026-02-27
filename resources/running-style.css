@@ -1,0 +1,48 @@
+:root {
+    --blu: #468BA6;
+    --ora: #F29A2E;
+    --litora: #FDF0E0;
+    --darblu: #1D4859;
+    --bro: #593814;
+}
+
+body {
+    background-color: var(--litora);
+    padding: 0 24px 36px 24px;
+}
+
+a {
+    color: var(--bro);
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--darblu)
+}
+
+h1, h2 {
+    color: var(--darblu);
+}
+
+h1 {
+    text-align: center;
+}
+
+p.picture {
+    text-align: center;
+}
+
+p, li, table {
+    font-size: 1.2em;
+}
+
+th, td {
+    border: 3px solid var(--blu);
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
